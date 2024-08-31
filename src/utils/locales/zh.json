@@ -1,0 +1,425 @@
+{
+    "Actions": {
+        "Show": "显示",
+        "Edit": "编辑",
+        "Delete": "删除"
+    },
+    "Tasks": {
+        "Tasks": "任务",
+        "SearchPlaceholder": "搜索任务",
+        "Modals": {
+            "CreateModalTitle": "创建任务",
+            "EditModalTitle": "编辑任务",
+            "DeleteModalTitle": "您确定要删除此任务吗？",
+            "Fields": {
+                "Title": {
+                    "Label": "标题",
+                    "Placeholder": "输入任务标题"
+                },
+                "CrossStreet": {
+                    "Label": "横街",
+                    "Placeholder": "输入横街名称"
+                },
+                "StreetName": {
+                    "Label": "街道名称",
+                    "Placeholder": "输入街道名称"
+                },
+                "ZipCode": {
+                    "Label": "邮政编码",
+                    "Placeholder": "输入邮政编码"
+                },
+                "HouseNumber": {
+                    "Label": "门牌号",
+                    "Placeholder": "输入门牌号"
+                },
+                "AssignedClient": "指定客户",
+                "City": {
+                    "Label": "城市",
+                    "Placeholder": "选择城市"
+                },
+                "Team": {
+                    "Label": "团队",
+                    "Placeholder": "添加"
+                },
+                "Start": {
+                    "Label": "开始日期"
+                },
+                "End": {
+                    "Label": "结束日期"
+                },
+                "Status": {
+                    "Label": "状态"
+                },
+                "Priority": {
+                    "Label": "优先级"
+                },
+                "Description": {
+                    "Label": "描述",
+                    "Placeholder": "输入任务描述"
+                }
+            },
+            "Buttons": {
+                "Create": {
+                    "Submit": "创建",
+                    "Cancel": "取消"
+                },
+                "Edit": {
+                    "Submit": "保存",
+                    "Cancel": "取消"
+                },
+                "Delete": {
+                    "Submit": "确认",
+                    "Cancel": "取消"
+                }
+            }
+        }
+    },
+    "SideBar": {
+        "Home": "首页",
+        "Notifications": "通知",
+        "Documents": "文档",
+        "Team": "我的团队",
+        "Client": "客户",
+        "Tasks": "任务",
+        "Meetings": "会议",
+        "Settings": "设置",
+        "MainSettings": "主要设置",
+        "Logout": "退出登录"
+    },
+    "Navbar": {
+        "Dashboard": "仪表盘",
+        "Schedule": "日程表",
+        "Inbox": "收件箱",
+        "Payments": "付款"
+    },
+    "Login": {
+        "Description": "帮助您管理团队的工作",
+        "Title": "欢迎来到",
+        "Instructions": "输入您的凭据以登录",
+        "Email": "电子邮件",
+        "Password": "密码",
+        "ForgotPass": "忘记密码？",
+        "SignIn": "登录"
+    },
+    "PwdReset": {
+        "Title": "重设密码",
+        "Instructions": "忘记密码？在下面输入您的电子邮件地址，我们将向您发送设置新密码的说明。",
+        "Send": "发送电子邮件",
+        "NewPwdTitle": "请输入新密码",
+        "NewPwdInstructions": "请输入新密码两次以确保正确输入",
+        "NewPwdConfirm": "确认密码",
+        "NewPwdSubmit": "提交",
+        "SuccessTitle": "密码重置完成！",
+        "SuccessMessage": "您的密码已设置。点击按钮进行登录。"
+    },
+    "Home": {
+        "UserCard": {
+            "Title": "你好",
+            "Position": "职位",
+            "Department": "部门",
+            "Subordinates": "下属",
+            "Pending": "今天待办的任务"
+        },
+        "News": {
+            "Title": "公司新闻！",
+            "More": "更多"
+        },
+        "Chart": {
+            "Title": "本周任务"
+        },
+        "Request": {
+            "RequestedAt": "申请时间",
+            "Title": "请假申请",
+            "StartDate": "开始日期",
+            "EndDate": "结束日期",
+            "NoRequests": "无可用申请。",
+            "Button": "提出申请",
+            "Status": {
+                "Label": "状态",
+                "Approved": "已批准",
+                "Rejected": "已拒绝"
+            },
+            "Content": "内容",
+            "Loading": "加载中...",
+            "CreateRequest": "创建申请",
+            "CreateRequestModalDescriptionLineOne": "在日历中选择您要申请的日期",
+            "CreateRequestModalDescriptionLineTwo": "作为请假日，并请为经理选择",
+            "CreateRequestModalDescriptionLineThree": "有关许可主题的选项。",
+            "CreateRequestModalDescriptionLineFour": "",
+            "SubjectOfTheRequest": "申请主题",
+            "RequestTextButton": "提交申请",
+            "TextAreaPlaceholder": "输入请假申请的主题",
+            "Approved": "已批准",
+            "Rejected": "已拒绝",
+            "Pending": "待定",
+            "UpdateFreeDayRequestTitleModal": "更新请假申请",
+            "UpdateFormStartDate": "开始日期",
+            "UpdateFormEndDate": "结束日期",
+            "UpdateFormRequestStatus": "申请状态",
+            "UpdateFormSubject": "主题",
+            "UpdateFormDeleteRequestToolTip": "删除请假申请",
+            "UpdateFormUpdateText": "更新",
+            "UpdateFormCancelText": "取消",
+            "SnackbarCloseText": "关闭"
+        }
+    },
+    "Schedule": {
+        "SearchLabel": "搜索员工",
+        "OptionLabel": "选择选项",
+        "Options": {
+            "Employee": "员工",
+            "Department": "部门",
+            "Tasks": "我的任务"
+        },
+        "All": "全部",
+        "Pending": "待办",
+        "Done": "已完成",
+        "Low": "低",
+        "Medium": "中",
+        "High": "高",
+        "Calendar": "日历视图",
+        "List": "列表视图"
+    },
+    "Documents": {
+        "Documents": "文档",
+        "Sort": "按部门对员工进行排序",
+        "NoSelect": "选择员工以查看其文档或直接添加",
+        "SearchLabel": "搜索用户",
+        "SHOW": "显示",
+        "Departments": {
+            "Development": "开发",
+            "Design": "设计",
+            "Sales": "销售",
+            "Legal": "法务",
+            "HR": "人力资源"
+        },
+        "Drawer": {
+            "DrawerHeader": "员工列表"
+        },
+        "UploadDocument": "上传文档",
+        "Download": "下载",
+        "Close": "关闭",
+        "NotContainDocs": "此员工没有文档。",
+        "Filter": {
+            "All": "全部",
+            "Images": "图片",
+            "PDF": "PDF"
+        }
+    },
+    "SelectTenant": {
+        "select_text": "选择您要登录的租户:"
+    },
+    "Event": {
+        "Validation": {
+            "LocationRequired": "必须提供地点",
+            "TitleRequired": "必须提供标题",
+            "ColorRequired": "必须选择颜色"
+        },
+        "CreateEventModal": {
+            "HeaderTitle": "创建事件",
+            "Title": "标题",
+            "Location": "地点",
+            "Color": "颜色",
+            "StartDate": "开始日期",
+            "EndDate": "结束日期",
+            "Description": "描述",
+            "TitlePlaceHolder": "事件标题",
+            "LocationPlaceHolder": "事件地点",
+            "StartDatePlaceHolder": "选择开始日期",
+            "EndDatePlaceHolder": "选择结束日期",
+            "ColorPlaceHolder": "选择颜色",
+            "DescriptionPlaceHolder": "输入事件描述"
+        },
+        "ViewEventModal": {
+            "StartDate": "开始日期",
+            "EndDate": "结束日期",
+            "Description": "描述",
+            "Location": "地点",
+            "Time": "时间"
+        },
+        "UpdateEventModal": {
+            "HeaderTitle": "编辑事件",
+            "Title": "事件标题",
+            "Location": "地点",
+            "Color": "颜色",
+            "StartDate": "开始日期",
+            "EndDate": "结束日期",
+            "Description": "描述",
+            "Update": "更新",
+            "TitlePlaceHolder": "事件标题",
+            "LocationPlaceHolder": "事件地点",
+            "StartDatePlaceHolder": "选择开始日期",
+            "EndDatePlaceHolder": "选择结束日期",
+            "ColorPlaceHolder": "选择颜色",
+            "DescriptionPlaceHolder": "输入事件描述"
+        },
+        "CloseSnackbar": "关闭",
+        "ConfirmDeleteEventText": "确定要删除此事件吗？",
+        "ConfirmDeleteEventCancelText": "取消",
+        "ConfirmDeleteEventButtonText": "是的，删除",
+        "From": "从",
+        "To": "到",
+        "CreatedSuccessfully": "事件创建成功",
+        "UpdatedSuccessfully": "事件更新成功",
+        "DeletedSuccessfully": "事件删除成功"
+    },
+    "EndDateAhead": "结束日期在开始日期之后",
+    "Overview": {
+        "Title": "本月概览"
+    },
+    "Table": {
+        "ConfirmDeleteMessage": "确定要删除该员工吗？",
+        "Cancel": "取消",
+        "Confirm": "是的，删除",
+        "Close": "关闭",
+        "CreateEmployee": "创建员工",
+        "EditEmployee": "编辑员工",
+        "RequiredFieldsText": "带 (*) 的字段为必填项。",
+        "Create": "创建",
+        "Update": "更新",
+        "Edit": "编辑",
+        "Delete": "删除",
+        "UserInfo": "用户信息",
+        "Keys": {
+            "PhoneNumber": "电话号码",
+            "FirstName": "名字",
+            "LastName": "姓氏",
+            "PhotoProfile": "个人头像",
+            "Birthday": "出生日期",
+            "Verified": "已验证",
+            "StreetName": "街道名称",
+            "ZipCode": "邮政编码",
+            "HouseNumber": "门牌号",
+            "Unverified": "未验证",
+            "City": "城市",
+            "Active": "激活",
+            "Inactive": "停用",
+            "Position": "职位",
+            "SearchLabel": "通过电子邮件搜索员工",
+            "Email": "电子邮件",
+            "Password": "密码",
+            "Verification": "验证",
+            "Activity": "活动",
+            "LastLogin": "上次登录",
+            "HiredAt": "入职日期",
+            "ContractDurationHint": "选择合同的持续时间（以月为单位）",
+            "ContractType": "合同类型",
+            "ContractDuration": "合同持续时间",
+            "Role": "角色",
+            "Actions": "操作"
+        },
+        "ImagePlaceholder": "选择一个头像",
+        "NoData": "未找到数据。",
+        "Internship": "实习",
+        "Freelance": "自由职业者"
+    },
+
+    "Projects": {
+        "Title": "项目",
+        "Name": "项目名称",
+        "Description": "描述",
+        "StartDate": "开始日期",
+        "EndDate": "结束日期",
+        "Activity": "活动",
+        "Inactive": "停用",
+        "Budget": "预算",
+        "Priority": "优先级",
+        "Client": "客户",
+        "TeamMembers": "团队成员",
+        "SearchLabel": "搜索项目",
+        "CreateProject": "创建项目",
+        "EditProject": "编辑项目"
+    },
+    "badge": "徽章",
+    "close": "关闭",
+    "dataIterator": {
+        "noResultsText": "未找到匹配的记录",
+        "loadingText": "正在加载项目..."
+    },
+    "dataTable": {
+        "itemsPerPageText": "每页行数：",
+        "ariaLabel": {
+            "sortDescending": "按降序排序。",
+            "sortAscending": "按升序排序。",
+            "sortNone": "未排序。",
+            "activateNone": "点击以取消排序。",
+            "activateDescending": "点击以降序排序。",
+            "activateAscending": "点击以升序排序。"
+        },
+        "sortBy": "排序方式"
+    },
+    "dataFooter": {
+        "itemsPerPageText": "每页项目数：",
+        "itemsPerPageAll": "全部",
+        "nextPage": "下一页",
+        "prevPage": "上一页",
+        "firstPage": "第一页",
+        "lastPage": "最后一页",
+        "pageText": "{0}-{1} 共 {2}"
+    },
+    "dateRangeInput": {
+        "divider": "至"
+    },
+    "datePicker": {
+        "ok": "确定",
+        "cancel": "取消",
+        "range": {
+            "title": "选择日期",
+            "header": "输入日期"
+        },
+        "title": "选择日期",
+        "header": "输入日期",
+        "input": {
+            "placeholder": "输入日期"
+        }
+    },
+    "noDataText": "无可用数据",
+    "carousel": {
+        "prev": "上一个视觉",
+        "next": "下一个视觉",
+        "ariaLabel": {
+            "delimiter": "第 {0} 张，共 {1} 张轮播图"
+        }
+    },
+    "calendar": {
+        "moreEvents": "还有 {0} 个"
+    },
+    "input": {
+        "clear": "清除 {0}",
+        "prependAction": "前置动作 {0}",
+        "appendAction": "后置动作 {0}"
+    },
+    "fileInput": {
+        "counter": "{0} 个文件",
+        "counterSize": "{0} 个文件（总共 {1}）"
+    },
+    "timePicker": {
+        "am": "上午",
+        "pm": "下午"
+    },
+    "pagination": {
+        "ariaLabel": {
+            "root": "分页导航",
+            "next": "下一页",
+            "previous": "上一页",
+            "page": "前往第 {0} 页",
+            "currentPage": "第 {0} 页，当前页",
+            "first": "第一页",
+            "last": "最后一页"
+        }
+    },
+    "rating": {
+        "ariaLabel": {
+            "item": "评分 {0}，共 {1}"
+        }
+    },
+    "loading": "加载中...",
+    "infiniteScroll": {
+        "loadMore": "加载更多",
+        "empty": "没有更多"
+    },
+    "Avatar": {
+        "AvatarTitle": "用户资料",
+        "Logout": "退出"
+    }
+}

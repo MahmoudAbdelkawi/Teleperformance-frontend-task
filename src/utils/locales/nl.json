@@ -1,0 +1,426 @@
+{
+    "Actions": {
+        "Show": "Weergeven",
+        "Edit": "Bewerken",
+        "Delete": "Verwijderen"
+    },
+    "Tasks": {
+        "Tasks": "Taken",
+        "SearchPlaceholder": "Zoek taken",
+        "Modals": {
+            "CreateModalTitle": "Taak aanmaken",
+            "EditModalTitle": "Taak bewerken",
+            "DeleteModalTitle": "Weet u zeker dat u deze taak wilt verwijderen?",
+            "Fields": {
+                "Client": "Klant",
+                "Title": {
+                    "Label": "Titel",
+                    "Placeholder": "Voer de taaktitel in"
+                },
+                "CrossStreet": {
+                    "Label": "Kruisstraat",
+                    "Placeholder": "Voer de naam van de dwarsstraat in"
+                },
+                "StreetName": {
+                    "Label": "Straatnaam",
+                    "Placeholder": "Voer straatnaam in"
+                },
+                "ZipCode": {
+                    "Label": "Postcode",
+                    "Placeholder": "Voer postcode in"
+                },
+                "HouseNumber": {
+                    "Label": "Huisnummer",
+                    "Placeholder": "Voer huisnummer in"
+                },
+                "AssignedClient": "Toegewezen Klant",
+                "City": {
+                    "Label": "Stad",
+                    "Placeholder": "Selecteer stad"
+                },
+                "Team": {
+                    "Label": "Team",
+                    "Placeholder": "Toevoegen"
+                },
+                "Start": {
+                    "Label": "Startdatum"
+                },
+                "End": {
+                    "Label": "Einddatum"
+                },
+                "Status": {
+                    "Label": "Status"
+                },
+                "Priority": {
+                    "Label": "Prioriteit"
+                },
+                "Description": {
+                    "Label": "Omschrijving",
+                    "Placeholder": "Voer de taakomschrijving in"
+                }
+            },
+            "Buttons": {
+                "Create": {
+                    "Submit": "Aanmaken",
+                    "Cancel": "Annuleren"
+                },
+                "Edit": {
+                    "Submit": "Opslaan",
+                    "Cancel": "Annuleren"
+                },
+                "Delete": {
+                    "Submit": "Bevestigen",
+                    "Cancel": "Annuleren"
+                }
+            }
+        }
+    },
+    "SideBar": {
+        "Home": "Home",
+        "Notifications": "Meldingen",
+        "Documents": "Documenten",
+        "Team": "Mijn Team",
+        "Client": "Klanten",
+        "Tasks": "Taken",
+        "Meetings": "Vergaderingen",
+        "Settings": "Instellingen",
+        "MainSettings": "Hoofdinstellingen",
+        "Logout": "Uitloggen"
+    },
+    "Navbar": {
+        "Dashboard": "Dashboard",
+        "Schedule": "Planning",
+        "Inbox": "Inbox",
+        "Payments": "Betalingen"
+    },
+    "Login": {
+        "Description": "Helpt u bij het beheren van het werk van uw team",
+        "Title": "Welkom bij ",
+        "Instructions": "Voer uw inloggegevens in om in te loggen",
+        "Email": "E-mail",
+        "Password": "Wachtwoord",
+        "ForgotPass": "Wachtwoord vergeten?",
+        "SignIn": "Inloggen"
+    },
+    "PwdReset": {
+        "Title": "Wachtwoord resetten",
+        "Instructions": "Wachtwoord vergeten? Voer hieronder uw e-mailadres in en we sturen u instructies om een nieuw wachtwoord in te stellen.",
+        "Send": "E-mail verzenden",
+        "NewPwdTitle": "Typ het nieuwe wachtwoord",
+        "NewPwdInstructions": "Voer twee keer een nieuw wachtwoord in om te controleren dat u het correct hebt ingevoerd",
+        "NewPwdConfirm": "Bevestig wachtwoord",
+        "NewPwdSubmit": "Verzenden",
+        "SuccessTitle": "Wachtwoordreset is voltooid!",
+        "SuccessMessage": "Uw wachtwoord is ingesteld. Klik op de knop om in te loggen."
+    },
+    "Home": {
+        "UserCard": {
+            "Title": "Hallo",
+            "Position": "Functie",
+            "Department": "Afdeling",
+            "Subordinates": "Ondergeschikten",
+            "Pending": "Taken vandaag in behandeling"
+        },
+        "News": {
+            "Title": "Bedrijfsnieuws!",
+            "More": "Meer"
+        },
+        "Chart": {
+            "Title": "Taken van deze week"
+        },
+        "Request": {
+            "RequestedAt": "Aangevraagd op",
+            "Title": "Verzoeken voor vrije dagen",
+            "StartDate": "Startdatum",
+            "EndDate": "Einddatum",
+            "NoRequests": "Geen verzoeken beschikbaar.",
+            "Button": "Een verzoek indienen",
+            "Status": {
+                "Label": "Status",
+                "Approved": "Goedgekeurd",
+                "Rejected": "Afgewezen"
+            },
+            "Content": "Inhoud",
+            "Loading": "Laden...",
+            "CreateRequest": "Verzoek aanmaken",
+            "CreateRequestModalDescriptionLineOne": "Selecteer de dag in de kalender die u",
+            "CreateRequestModalDescriptionLineTwo": " wilt aanvragen als vrije dag, en kies alstublieft",
+            "CreateRequestModalDescriptionLineThree": " een optie om uw manager te informeren",
+            "CreateRequestModalDescriptionLineFour": " over het onderwerp van de toestemming.",
+            "SubjectOfTheRequest": "Onderwerp van het verzoek",
+            "RequestTextButton": "VERZOEK",
+            "TextAreaPlaceholder": "Typ het onderwerp van het verzoek voor een vrije dag",
+            "Approved": "Goedgekeurd",
+            "Rejected": "Afgewezen",
+            "Pending": "In behandeling",
+            "UpdateFreeDayRequestTitleModal": "Verzoek voor vrije dag bijwerken",
+            "UpdateFormStartDate": "Startdatum",
+            "UpdateFormEndDate": "Einddatum",
+            "UpdateFormRequestStatus": "Verzoekstatus",
+            "UpdateFormSubject": "Onderwerp",
+            "UpdateFormDeleteRequestToolTip": "Verzoek voor vrije dag verwijderen",
+            "UpdateFormUpdateText": "Bijwerken",
+            "UpdateFormCancelText": "Annuleren",
+            "SnackbarCloseText": "Sluiten"
+        }
+    },
+    "Schedule": {
+        "SearchLabel": "Zoek een medewerker",
+        "OptionLabel": "Kies een optie",
+        "Options": {
+            "Employee": "Medewerker",
+            "Department": "Afdeling",
+            "Tasks": "Mijn taken"
+        },
+        "All": "Alle",
+        "Pending": "In behandeling",
+        "Done": "Voltooid",
+        "Low": "Laag",
+        "Medium": "Gemiddeld",
+        "High": "Hoog",
+        "Calendar": "Kalenderweergave",
+        "List": "Lijstweergave"
+    },
+    "Documents": {
+        "Documents": "Documenten",
+        "Sort": "Sorteer medewerkers op afdeling",
+        "NoSelect": "Selecteer een medewerker om hun documenten te bekijken of voeg ze direct toe",
+        "SearchLabel": "Zoek gebruiker",
+        "SHOW": "TONEN",
+        "Departments": {
+            "Development": "Ontwikkeling",
+            "Design": "Ontwerp",
+            "Sales": "Verkoop",
+            "Legal": "Juridisch",
+            "HR": "HR"
+        },
+        "Drawer": {
+            "DrawerHeader": "Lijst van medewerkers"
+        },
+        "UploadDocument": "Document uploaden",
+        "Download": "Downloaden",
+        "Close": "Sluiten",
+        "NotContainDocs": "Deze medewerker heeft geen documenten",
+        "Filter": {
+            "All": "Alle ",
+            "Images": "Afbeeldingen",
+            "PDF": "PDF"
+        }
+
+    },
+    "SelectTenant": {
+        "select_text": "Selecteer de Tenant waarmee u wilt inloggen:"
+    },
+    "Event": {
+        "Validation": {
+            "LocationRequired": "Locatie is verplicht",
+            "TitleRequired": "Titel is verplicht",
+            "ColorRequired": "Kleur is verplicht"
+        },
+        "CreateEventModal": {
+            "HeaderTitle": "Evenement aanmaken",
+            "Title": "Titel",
+            "Location": "Locatie",
+            "Color": "Kleur",
+            "StartDate": "Startdatum",
+            "EndDate": "Einddatum",
+            "Description": "Beschrijving",
+            "TitlePlaceHolder": "Evenementstitel",
+            "LocationPlaceHolder": "Evenementlocatie",
+            "StartDatePlaceHolder": "Selecteer startdatum",
+            "EndDatePlaceHolder": "Selecteer einddatum",
+            "ColorPlaceHolder": "Selecteer kleur",
+            "DescriptionPlaceHolder": "Typ evenementbeschrijving"
+        },
+        "ViewEventModal": {
+            "StartDate": "Startdatum",
+            "EndDate": "Einddatum",
+            "Description": "Beschrijving",
+            "Location": "Locatie",
+            "Time": "Tijd"
+        },
+        "UpdateEventModal": {
+            "HeaderTitle": "Evenement bewerken",
+            "Title": "Evenementstitel",
+            "Location": "Locatie",
+            "Color": "Kleur",
+            "StartDate": "Startdatum",
+            "EndDate": "Einddatum",
+            "Description": "Beschrijving",
+            "Update": "Bijwerken",
+            "TitlePlaceHolder": "Evenementstitel",
+            "LocationPlaceHolder": "Evenementlocatie",
+            "StartDatePlaceHolder": "Selecteer startdatum",
+            "EndDatePlaceHolder": "Selecteer einddatum",
+            "ColorPlaceHolder": "Selecteer kleur",
+            "DescriptionPlaceHolder": "Typ evenementbeschrijving"
+        },
+        "CloseSnackbar": "Sluiten",
+        "ConfirmDeleteEventText": "Weet u zeker dat u dit evenement wilt verwijderen?",
+        "ConfirmDeleteEventCancelText": "Annuleren",
+        "ConfirmDeleteEventButtonText": "Ja, verwijderen",
+        "From": "Van",
+        "To": "Tot",
+        "CreatedSuccessfully": "Evenement succesvol aangemaakt",
+        "UpdatedSuccessfully": "Evenement succesvol bijgewerkt",
+        "DeletedSuccessfully": "Evenement succesvol verwijderd"
+    },
+    "EndDateAhead": "Einddatum valt na startdatum",
+    "Overview": {
+        "Title": "Overzicht van deze maand"
+    },
+    "Table": {
+        "ConfirmDeleteMessage": "Weet u zeker dat u deze medewerker wilt verwijderen?",
+        "Cancel": "Annuleren",
+        "Confirm": "Ja, verwijderen",
+        "Close": "Sluiten",
+        "CreateEmployee": "Medewerker aanmaken",
+        "EditEmployee": "Medewerker bewerken",
+        "RequiredFieldsText": "Velden gemarkeerd met (*) zijn verplicht.",
+        "Create": "Aanmaken",
+        "Update": "Bijwerken",
+        "Edit": "Bewerken",
+        "Delete": "Verwijderen",
+        "UserInfo": "Gebruikersinformatie",
+        "Keys": {
+            "PhoneNumber": "Telefoonnummer",
+            "FirstName": "Voornaam",
+            "LastName": "Achternaam",
+            "PhotoProfile": "Profielfoto",
+            "Birthday": "Geboortedatum",
+            "Verified": "Geverifieerd",
+            "StreetName": "Straatnaam",
+            "ZipCode": "Postcode",
+            "HouseNumber": "Huisnummer",
+            "Unverified": "Niet geverifieerd",
+            "City": "Stad",
+            "Active": "Actief",
+            "Inactive": "Inactief",
+            "Position": "Functie",
+            "SearchLabel": "Zoek medewerkers op e-mail",
+            "Email": "E-mail",
+            "Password": "Wachtwoord",
+            "Verification": "Verificatie",
+            "Activity": "Activiteit",
+            "LastLogin": "Laatste login",
+            "HiredAt": "Datum indiensttreding",
+            "ContractDurationHint": "Selecteer de duur van het contract in maanden",
+            "ContractType": "Contracttype",
+            "ContractDuration": "Contractduur",
+            "Role": "Rol",
+            "Actions": "Acties"
+        },
+        "ImagePlaceholder": "Kies een avatar",
+        "NoData": "Geen gegevens gevonden.",
+        "Internship": "Stage",
+        "Freelance": "Freelance"
+    },
+    "Projects": {
+        "Title": "Projecten",
+        "Name": "Project Naam",
+        "Description": "Beschrijving",
+        "StartDate": "Startdatum",
+        "EndDate": "Einddatum",
+        "Activity": "Activiteit",
+        "Inactive": "Inactief",
+        "Budget": "Budget",
+        "Priority": "Prioriteit",
+        "Client": "Klant",
+        "TeamMembers": "Teamleden",
+        "SearchLabel": "Zoek projecten",
+        "CreateProject": "Project aanmaken",
+        "EditProject": "Project bewerken"
+    },
+    "badge": "Badge",
+    "close": "Sluiten",
+    "dataIterator": {
+        "noResultsText": "Geen overeenkomende records gevonden",
+        "loadingText": "Items worden geladen..."
+    },
+    "dataTable": {
+        "itemsPerPageText": "Rijen per pagina:",
+        "ariaLabel": {
+            "sortDescending": "Aflopend gesorteerd.",
+            "sortAscending": "Oplopend gesorteerd.",
+            "sortNone": "Niet gesorteerd.",
+            "activateNone": "Klik om sortering te verwijderen.",
+            "activateDescending": "Klik om aflopend te sorteren.",
+            "activateAscending": "Klik om oplopend te sorteren."
+        },
+        "sortBy": "Sorteren op"
+    },
+    "dataFooter": {
+        "itemsPerPageText": "Items per pagina:",
+        "itemsPerPageAll": "Alles",
+        "nextPage": "Volgende pagina",
+        "prevPage": "Vorige pagina",
+        "firstPage": "Eerste pagina",
+        "lastPage": "Laatste pagina",
+        "pageText": "{0}-{1} van {2}"
+    },
+    "dateRangeInput": {
+        "divider": "tot"
+    },
+    "datePicker": {
+        "ok": "OK",
+        "cancel": "Annuleren",
+        "range": {
+            "title": "Selecteer data",
+            "header": "Voer data in"
+        },
+        "title": "Selecteer datum",
+        "header": "Voer datum in",
+        "input": {
+            "placeholder": "Voer datum in"
+        }
+    },
+    "noDataText": "Geen gegevens beschikbaar",
+    "carousel": {
+        "prev": "Vorige visual",
+        "next": "Volgende visual",
+        "ariaLabel": {
+            "delimiter": "Carrousel dia {0} van {1}"
+        }
+    },
+    "calendar": {
+        "moreEvents": "{0} meer"
+    },
+    "input": {
+        "clear": "Wissen {0}",
+        "prependAction": "Voorvoegselactie {0}",
+        "appendAction": "Aanhangselactie {0}"
+    },
+    "fileInput": {
+        "counter": "{0} bestanden",
+        "counterSize": "{0} bestanden ({1} totaal)"
+    },
+    "timePicker": {
+        "am": "AM",
+        "pm": "PM"
+    },
+    "pagination": {
+        "ariaLabel": {
+            "root": "Paginanavigatie",
+            "next": "Volgende pagina",
+            "previous": "Vorige pagina",
+            "page": "Ga naar pagina {0}",
+            "currentPage": "Pagina {0}, Huidige pagina",
+            "first": "Eerste pagina",
+            "last": "Laatste pagina"
+        }
+    },
+    "rating": {
+        "ariaLabel": {
+            "item": "Beoordeling {0} van {1}"
+        }
+    },
+    "loading": "Laden...",
+    "infiniteScroll": {
+        "loadMore": "Meer laden",
+        "empty": "Geen meer"
+    },
+    "Avatar": {
+        "AvatarTitle": "Gebruikersprofiel",
+        "Logout": "Uitloggen"
+    }
+}

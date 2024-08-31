@@ -1,0 +1,425 @@
+{
+    "Actions": {
+        "Show": "Afficher",
+        "Edit": "Modifier",
+        "Delete": "Supprimer"
+    },
+    "Tasks": {
+        "Tasks": "Tâches",
+        "SearchPlaceholder": "Rechercher des tâches",
+        "Modals": {
+            "CreateModalTitle": "Créer une tâche",
+            "EditModalTitle": "Modifier la tâche",
+            "DeleteModalTitle": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+            "Fields": {
+                "Title": {
+                    "Label": "Titre",
+                    "Placeholder": "Entrer le titre de la tâche"
+                },
+                "CrossStreet": {
+                    "Label": "Rue Transversale",
+                    "Placeholder": "Entrez le nom de la rue transversale"
+                },
+                "StreetName": {
+                    "Label": "Nom de la rue",
+                    "Placeholder": "Entrez le nom de la rue"
+                },
+                "ZipCode": {
+                    "Label": "Code postal",
+                    "Placeholder": "Entrez le code postal"
+                },
+                "HouseNumber": {
+                    "Label": "Numéro de maison",
+                    "Placeholder": "Entrez le numéro de maison"
+                },
+                "AssignedClient": "Client attribué",
+                "City": {
+                    "Label": "Ville",
+                    "Placeholder": "Sélectionner une ville"
+                },
+                "Team": {
+                    "Label": "Équipe",
+                    "Placeholder": "Ajouter"
+                },
+                "Start": {
+                    "Label": "Date de début"
+                },
+                "End": {
+                    "Label": "Date de fin"
+                },
+                "Status": {
+                    "Label": "Statut"
+                },
+                "Priority": {
+                    "Label": "Priorité"
+                },
+                "Description": {
+                    "Label": "Description",
+                    "Placeholder": "Entrer la description de la tâche"
+                }
+            },
+            "Buttons": {
+                "Create": {
+                    "Submit": "Créer",
+                    "Cancel": "Annuler"
+                },
+                "Edit": {
+                    "Submit": "Enregistrer",
+                    "Cancel": "Annuler"
+                },
+                "Delete": {
+                    "Submit": "Confirmer",
+                    "Cancel": "Annuler"
+                }
+            }
+        }
+    },
+    "SideBar": {
+        "Home": "Accueil",
+        "Notifications": "Notifications",
+        "Documents": "Documents",
+        "Team": "Mon équipe",
+        "Client": "Clients",
+        "Tasks": "Tâches",
+        "Meetings": "Réunions",
+        "Settings": "Paramètres",
+        "MainSettings": "Paramètres principaux",
+        "Logout": "Déconnexion"
+    },
+    "Navbar": {
+        "Dashboard": "Tableau de bord",
+        "Schedule": "Calendrier",
+        "Inbox": "Boîte de réception",
+        "Payments": "Paiements"
+    },
+    "Login": {
+        "Description": "Vous aide à gérer le travail de votre équipe",
+        "Title": "Bienvenue sur ",
+        "Instructions": "Entrez vos identifiants pour vous connecter",
+        "Email": "Email",
+        "Password": "Mot de passe",
+        "ForgotPass": "Mot de passe oublié ?",
+        "SignIn": "Se connecter"
+    },
+    "PwdReset": {
+        "Title": "Réinitialiser le mot de passe",
+        "Instructions": "Vous avez oublié votre mot de passe ? Entrez votre adresse e-mail ci-dessous et nous vous enverrons des instructions pour en configurer un nouveau.",
+        "Send": "Envoyer l'e-mail",
+        "NewPwdTitle": "Veuillez saisir le nouveau mot de passe",
+        "NewPwdInstructions": "Veuillez entrer un nouveau mot de passe deux fois pour vérifier que vous l'avez saisi correctement",
+        "NewPwdConfirm": "Confirmer le mot de passe",
+        "NewPwdSubmit": "Soumettre",
+        "SuccessTitle": "La réinitialisation du mot de passe est terminée !",
+        "SuccessMessage": "Votre mot de passe a été défini. Cliquez sur le bouton pour vous connecter."
+    },
+    "Home": {
+        "UserCard": {
+            "Title": "Bonjour",
+            "Position": "Poste",
+            "Department": "Département",
+            "Subordinates": "Subordonnés",
+            "Pending": "Tâches en attente aujourd'hui"
+        },
+        "News": {
+            "Title": "Actualités de l'entreprise !",
+            "More": "En savoir plus"
+        },
+        "Chart": {
+            "Title": "Tâches de cette semaine"
+        },
+        "Request": {
+            "RequestedAt": "Demandé le",
+            "Title": "Demandes de congé",
+            "StartDate": "Date de début",
+            "EndDate": "Date de fin",
+            "NoRequests": "Aucune demande disponible.",
+            "Button": "Faire une demande",
+            "Status": {
+                "Label": "Statut",
+                "Approved": "Approuvée",
+                "Rejected": "Rejetée"
+            },
+            "Content": "Contenu",
+            "Loading": "Chargement en cours...",
+            "CreateRequest": "Créer une demande",
+            "CreateRequestModalDescriptionLineOne": "Sélectionnez le jour dans le calendrier que vous",
+            "CreateRequestModalDescriptionLineTwo": " souhaitez demander comme jour de congé, et veuillez ",
+            "CreateRequestModalDescriptionLineThree": " choisir une option pour informer votre responsable",
+            "CreateRequestModalDescriptionLineFour": " de l'objet de la demande.",
+            "SubjectOfTheRequest": "Objet de la demande",
+            "RequestTextButton": "DEMANDE",
+            "TextAreaPlaceholder": "Saisissez l'objet de la demande de congé",
+            "Approved": "Approuvée",
+            "Rejected": "Rejetée",
+            "Pending": "En attente",
+            "UpdateFreeDayRequestTitleModal": "Mettre à jour la demande de congé",
+            "UpdateFormStartDate": "Date de début",
+            "UpdateFormEndDate": "Date de fin",
+            "UpdateFormRequestStatus": "Statut de la demande",
+            "UpdateFormSubject": "Objet",
+            "UpdateFormDeleteRequestToolTip": "Supprimer la demande de congé",
+            "UpdateFormUpdateText": "Mettre à jour",
+            "UpdateFormCancelText": "Annuler",
+            "SnackbarCloseText": "Fermer"
+        }
+    },
+    "Schedule": {
+        "SearchLabel": "Rechercher un employé",
+        "OptionLabel": "Choisir une option",
+        "Options": {
+            "Employee": "Employé",
+            "Department": "Département",
+            "Tasks": "Mes tâches"
+        },
+        "All": "Tous",
+        "Pending": "En attente",
+        "Done": "Terminé",
+        "Low": "Faible",
+        "Medium": "Moyen",
+        "High": "Élevé",
+        "Calendar": "Vue calendrier",
+        "List": "Vue liste"
+    },
+    "Documents": {
+        "Documents": "Documents",
+        "Sort": "Trier les employés par département",
+        "NoSelect": "Sélectionnez un employé pour voir ses documents ou ajoutez-les directement",
+        "SearchLabel": "Rechercher un utilisateur",
+        "SHOW": "AFFICHER",
+        "Departments": {
+            "Development": "Développement",
+            "Design": "Design",
+            "Sales": "Ventes",
+            "Legal": "Juridique",
+            "HR": "RH"
+        },
+        "Drawer": {
+            "DrawerHeader": "Liste des employés"
+        },
+        "UploadDocument": "Télécharger un document",
+        "Download": "Télécharger",
+        "Close": "Fermer",
+        "NotContainDocs": "Cet utilisateur ne contient pas de documents",
+        "Filter": {
+            "All": "Tous",
+            "Images": "Images",
+            "PDF":  "PDF" 
+        }
+
+    },
+    "SelectTenant": {
+        "select_text": "Sélectionnez le locataire avec lequel vous souhaitez vous connecter :"
+    },
+    "Event": {
+        "Validation": {
+            "LocationRequired": "L'emplacement est requis",
+            "TitleRequired": "Le titre est requis",
+            "ColorRequired": "La couleur est requise"
+        },
+        "CreateEventModal": {
+            "HeaderTitle": "Créer un événement",
+            "Title": "Titre",
+            "Location": "Emplacement",
+            "Color": "Couleur",
+            "StartDate": "Date de début",
+            "EndDate": "Date de fin",
+            "Description": "Description",
+            "TitlePlaceHolder": "Titre de l'événement",
+            "LocationPlaceHolder": "Emplacement de l'événement",
+            "StartDatePlaceHolder": "Sélectionnez la date de début",
+            "EndDatePlaceHolder": "Sélectionnez la date de fin",
+            "ColorPlaceHolder": "Sélectionnez la couleur",
+            "DescriptionPlaceHolder": "Saisissez la description de l'événement"
+        },
+        "ViewEventModal": {
+            "StartDate": "Date de début",
+            "EndDate": "Date de fin",
+            "Description": "Description",
+            "Location": "Emplacement",
+            "Time": "Heure"
+        },
+        "UpdateEventModal": {
+            "HeaderTitle": "Modifier l'événement",
+            "Title": "Titre de l'événement",
+            "Location": "Emplacement",
+            "Color": "Couleur",
+            "StartDate": "Date de début",
+            "EndDate": "Date de fin",
+            "Description": "Description",
+            "Update": "Mettre à jour",
+            "TitlePlaceHolder": "Titre de l'événement",
+            "LocationPlaceHolder": "Emplacement de l'événement",
+            "StartDatePlaceHolder": "Sélectionnez la date de début",
+            "EndDatePlaceHolder": "Sélectionnez la date de fin",
+            "ColorPlaceHolder": "Sélectionnez la couleur",
+            "DescriptionPlaceHolder": "Saisissez la description de l'événement"
+        },
+        "CloseSnackbar": "Fermer",
+        "ConfirmDeleteEventText": "Êtes-vous sûr de vouloir supprimer cet événement ?",
+        "ConfirmDeleteEventCancelText": "Annuler",
+        "ConfirmDeleteEventButtonText": "Oui, supprimer",
+        "From": "De",
+        "To": "À",
+        "CreatedSuccessfully": "Événement créé avec succès",
+        "UpdatedSuccessfully": "Événement mis à jour avec succès",
+        "DeletedSuccessfully": "Événement supprimé avec succès"
+    },
+    "EndDateAhead": "La date de fin est postérieure à la date de début",
+    "Overview": {
+        "Title": "Aperçu du mois en cours"
+    },
+    "Table": {
+        "ConfirmDeleteMessage": "Are you sure you want to delete this employee?",
+        "Cancel": "Cancel",
+        "Confirm": "Yes, delete",
+        "Close": "Close",
+        "CreateEmployee": "Create employee",
+        "EditEmployee": "Edit employee",
+        "RequiredFieldsText": "Fields marked with (*) are required.",
+        "Create": "Create",
+        "Update": "Update",
+        "Edit": "Edit",
+        "Delete": "Delete",
+        "UserInfo": "User information",
+        "Keys": {
+            "PhoneNumber": "Phone number",
+            "FirstName": "First name",
+            "LastName": "Last name",
+            "PhotoProfile": "Profile photo",
+            "Birthday": "Date of birth",
+            "Verified": "Verified",
+            "StreetName": "Nom de la rue",
+            "ZipCode": "Code postal",
+            "HouseNumber": "Numéro de maison",
+            "Unverified": "Unverified",
+            "City": "City",
+            "Active": "Active",
+            "Inactive": "Inactive",
+            "Position": "Position",
+            "SearchLabel": "Search employees by email",
+            "Email": "Email",
+            "Password": "Password",
+            "Verification": "Verification",
+            "Activity": "Activity",
+            "LastLogin": "Last login",
+            "HiredAt": "Hired at",
+            "ContractDurationHint": "Select the Duration of the contract in months",
+            "ContractType": "Contract type",
+            "ContractDuration": "Contract duration",
+            "Role": "Role",
+            "Actions": "Actions"
+        },
+        "ImagePlaceholder": "Pick an avatar",
+        "NoData": "No data found.",
+        "Internship": "Internship",
+        "Freelance": "Freelance"
+    },
+    "Projects": {
+        "Title":"Projets",
+        "Name": "Nom du projet",
+        "Description": "Description",
+        "StartDate": "Date de début",
+        "EndDate": "Date de fin",
+        "Activity": "Activité",
+        "Inactive": "Inactif",
+        "Budget": "Budget",
+        "Priority": "Priorité",
+        "Client": "Client",
+        "TeamMembers": "Membres de l'équipe",
+        "SearchLabel": "Rechercher un projet",
+        "CreateProject": "Créer un projet",
+        "EditProject": "Modifier le projet"
+    },
+    "badge": "Badge",
+    "close": "Fermer",
+    "dataIterator": {
+        "noResultsText": "Aucun enregistrement correspondant trouvé",
+        "loadingText": "Chargement en cours..."
+    },
+    "dataTable": {
+        "itemsPerPageText": "Lignes par page :",
+        "ariaLabel": {
+            "sortDescending": "Trié par ordre décroissant.",
+            "sortAscending": "Trié par ordre croissant.",
+            "sortNone": "Non trié.",
+            "activateNone": "Cliquez pour supprimer le tri.",
+            "activateDescending": "Cliquez pour trier par ordre décroissant.",
+            "activateAscending": "Cliquez pour trier par ordre croissant."
+        },
+        "sortBy": "Trier par"
+    },
+    "dataFooter": {
+        "itemsPerPageText": "Éléments par page :",
+        "itemsPerPageAll": "Tous",
+        "nextPage": "Page suivante",
+        "prevPage": "Page précédente",
+        "firstPage": "Première page",
+        "lastPage": "Dernière page",
+        "pageText": "{0}-{1} sur {2}"
+    },
+    "dateRangeInput": {
+        "divider": "à"
+    },
+    "datePicker": {
+        "ok": "OK",
+        "cancel": "Annuler",
+        "range": {
+            "title": "Sélectionner des dates",
+            "header": "Entrer des dates"
+        },
+        "title": "Sélectionner une date",
+        "header": "Entrer une date",
+        "input": {
+            "placeholder": "Entrer une date"
+        }
+    },
+    "noDataText": "Aucune donnée disponible",
+    "carousel": {
+        "prev": "Visuel précédent",
+        "next": "Visuel suivant",
+        "ariaLabel": {
+            "delimiter": "Diapositive {0} sur {1} du carrousel"
+        }
+    },
+    "calendar": {
+        "moreEvents": "{0} de plus"
+    },
+    "input": {
+        "clear": "Effacer {0}",
+        "prependAction": "Action précédant {0}",
+        "appendAction": "Action suivant {0}"
+    },
+    "fileInput": {
+        "counter": "{0} fichiers",
+        "counterSize": "{0} fichiers ({1} au total)"
+    },
+    "timePicker": {
+        "am": "AM",
+        "pm": "PM"
+    },
+    "pagination": {
+        "ariaLabel": {
+            "root": "Navigation de pagination",
+            "next": "Page suivante",
+            "previous": "Page précédente",
+            "page": "Aller à la page {0}",
+            "currentPage": "Page {0}, Page actuelle",
+            "first": "Première page",
+            "last": "Dernière page"
+        }
+    },
+    "rating": {
+        "ariaLabel": {
+            "item": "Note {0} sur {1}"
+        }
+    },
+    "loading": "Chargement en cours...",
+    "infiniteScroll": {
+        "loadMore": "Charger plus",
+        "empty": "Aucun autre"
+    },
+    "Avatar": {
+        "AvatarTitle": "Profil d'utilisateur",
+        "Logout": "Déconnexion"
+    }
+}

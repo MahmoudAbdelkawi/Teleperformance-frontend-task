@@ -1,0 +1,442 @@
+{
+    "Actions": {
+        "Show": "Show",
+        "Edit": "Edit",
+        "Delete": "Delete"
+    },
+    "Tasks": {
+        "MarkDone": "Mark as done",
+        "Tasks": "Tasks",
+        "SearchPlaceholder": "Search tasks",
+        "Modals": {
+            "CreateModalTitle": "Create Task",
+            "EditModalTitle": "Edit task",
+            "DeleteModalTitle": "Are you sure you want to delete this task ?",
+            "Fields": {
+                "Client": "Client",
+                "ClientLabel": "Select a client",
+                "Title": {
+                    "Label": "Title",
+                    "Placeholder": "Enter task title"
+                },
+                "CrossStreet": {
+                    "Label": "Cross street",
+                    "Placeholder": "Enter cross street name"
+                },
+                "StreetName": {
+                    "Label": "Street Name",
+                    "Placeholder": "Enter street name"
+                },
+                "ZipCode": {
+                    "Label": "Zip Code",
+                    "Placeholder": "Enter Zip code"
+                },
+                "HouseNumber": {
+                    "Label": "House Number",
+                    "Placeholder": "Enter House number"
+                },
+                "AssignedClient": "Assigned Client",
+                "City": {
+                    "Label": "City",
+                    "Placeholder": "Select city"
+                },
+                "Team": {
+                    "Label": "Team",
+                    "Placeholder": "Add"
+                },
+                "Start": {
+                    "Label": "Start date"
+                },
+                "End": {
+                    "Label": "End date"
+                },
+                "Status": {
+                    "Label": "Status"
+                },
+                "Priority": {
+                    "Label": "Priority"
+                },
+                "Description": {
+                    "Label": "Description",
+                    "Placeholder": "Enter task description"
+                },
+                "NoEmp": {
+                    "Label": "No of employees",
+                    "Placeholder": "Enter a number",
+                    "NoLimit": "No limit"
+                }
+            },
+            "Buttons": {
+                "Create": {
+                    "Submit": "Create",
+                    "Cancel": "Cancel"
+                },
+                "Edit": {
+                    "Submit": "Save",
+                    "Cancel": "Cancel"
+                },
+                "Delete": {
+                    "Submit": "Confirm",
+                    "Cancel": "Cancel"
+                }
+            }
+        }
+    },
+    "SideBar": {
+        "Home": "Home",
+        "Notifications": "Notifications",
+        "Documents": "Documents",
+        "Team": "My Team",
+        "Client": "Clients",
+        "Tasks": "Tasks",
+        "Meetings": "Meetings",
+        "Settings": "Settings",
+        "MainSettings": "Account settings",
+        "Logout": "Logout"
+    },
+    "Navbar": {
+        "Dashboard": "Dashboard",
+        "Schedule": "Schedule",
+        "Inbox": "Inbox",
+        "Payments": "Payments"
+    },
+    "Login": {
+        "Description": "Helps you manage your team's work",
+        "Title": "Welcome to ",
+        "Instructions": "Enter your credentials to to sign in",
+        "Email": "Email",
+        "Username" : "Username",
+        "Password": "Password",
+        "SignIn": "Sign In",
+        "SignUp": "Sign Up"
+    },
+    "PwdReset": {
+        "Title": "Reset wachtwoord",
+        "Instructions": "Forgot your password? Enter yout email address below and well send you instructions to set up a new one.",
+        "Send": "Send email",
+        "NewPwdTitle": "Please type the new password",
+        "NewPwdInstructions": "Please enter a new password twice to very that you entered it correctly",
+        "NewPwdConfirm": "Confirm password",
+        "NewPwdSubmit": "Submit",
+        "SuccessTitle": "Password reset is complete!",
+        "SuccessMessage": "Your password has been set. Click on the button to sing in."
+    },
+    "Home": {
+        "UserCard": {
+            "Title": "Hello",
+            "Position": "Position",
+            "Department": "Department",
+            "Subordinates": "Subordinates",
+            "Pending": "Pending tasks today"
+        },
+        "News": {
+            "Title": "Company news !",
+            "More": "More"
+        },
+        "Chart": {
+            "Title": "This week's tasks"
+        },
+        "Request": {
+            "RequestedAt": "Requested At",
+            "Title": "Free day requests",
+            "StartDate": "Start date",
+            "EndDate": "End date",
+            "NoRequests": "No requests available.",
+            "Button": "Make a request",
+            "Status": {
+                "Label": "Status",
+                "Approved": "Approved",
+                "Rejected": "Rejected"
+            },
+            "Content": "Content",
+            "Loading": "Loading...",
+            "CreateRequest": "Create request",
+            "CreateRequestModalDescriptionLineOne": "Select the day in the calendar that you",
+            "CreateRequestModalDescriptionLineTwo": " want to request as a free day, and please ",
+            "CreateRequestModalDescriptionLineThree": "  choose and option to tell your manager",
+            "CreateRequestModalDescriptionLineFour": " about the permission’s subject.",
+            "SubjectOfTheRequest": "Subject of the request ",
+            "RequestTextButton": "REQUEST",
+            "TextAreaPlaceholder": "Type subject of the free day request",
+            "Approved": "Approved",
+            "Rejected": "Rejected",
+            "Pending": "Pending",
+            "UpdateFreeDayRequestTitleModal": "Update free day request",
+            "UpdateFormStartDate": "Start date",
+            "UpdateFormEndDate": "End date",
+            "UpdateFormRequestStatus": "Request status",
+            "UpdateFormSubject": "Subject",
+            "UpdateFormDeleteRequestToolTip": "Delete free day request",
+            "UpdateFormUpdateText": "Update",
+            "UpdateFormCancelText": "Cancel",
+            "SnackbarCloseText": "Close"
+        }
+    },
+    "Schedule": {
+        "SearchLabel": "Search an employee",
+        "OptionLabel": "Choose an option",
+        "Options": {
+            "Employee": "Employee",
+            "Department": "Department",
+            "Tasks": "My tasks"
+        },
+        "All": "All",
+        "Pending": "Pending",
+        "Done": "Done",
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High",
+        "Calendar": "Calendar View",
+        "List": "List View"
+    },
+    "Documents": {
+        "Documents": "Documents",
+        "Sort": "Sort employees by department",
+        "NoSelect": "Select an employee to see their documents or add them directly",
+        "SearchLabel": "Search user",
+        "SHOW": "SHOW",
+        "Departments": {
+            "Development": "Development",
+            "Design": "Design",
+            "Sales": "Sales",
+            "Legal": "Legal",
+            "HR": "HR"
+        },
+        "Drawer": {
+            "DrawerHeader": "List of Employees"
+        },
+        "UploadDocument": "Upload Document",
+        "Download": "Download",
+        "Close": "Close",
+        "NotProjectsFounded": "No projects found",
+        "NotContainDocs": "This project does not contain any documents",
+        "Filter": {
+            "All": "All",
+            "Images": "Images",
+            "PDF": "PDF"
+        }
+    },
+    "SelectTenant": {
+        "select_text": "Select the Tenant you want to login with :"
+    },
+    "Event": {
+        "Validation": {
+            "LocationRequired": "Location is required",
+            "TitleRequired": "Title is required",
+            "ColorRequired": "Color is required"
+        },
+        "CreateEventModal": {
+            "HeaderTitle": "Create Event",
+            "Title": "Title",
+            "Location": "Location",
+            "Color": "Color",
+            "StartDate": "Start date",
+            "EndDate": "End date",
+            "Description": "Description",
+            "TitlePlaceHolder": "Event title",
+            "LocationPlaceHolder": "Event location",
+            "StartDatePlaceHolder": "Select start date",
+            "EndDatePlaceHolder": "Select end date",
+            "ColorPlaceHolder": "Select Color",
+            "DescriptionPlaceHolder": "Type event description"
+        },
+        "ViewEventModal": {
+            "StartDate": "Start date",
+            "EndDate": "End date",
+            "Description": "Description",
+            "Location": "Location",
+            "Time": "Time"
+        },
+        "UpdateEventModal": {
+            "HeaderTitle": "Edit Event",
+            "Title": "Event title",
+            "Location": "Location",
+            "Color": "Color",
+            "StartDate": "Start date",
+            "EndDate": "End date",
+            "Description": "Description",
+            "Update": "Update",
+            "TitlePlaceHolder": "Event title",
+            "LocationPlaceHolder": "Event location",
+            "StartDatePlaceHolder": "Select start date",
+            "EndDatePlaceHolder": "Select end date",
+            "ColorPlaceHolder": "Select Color",
+            "DescriptionPlaceHolder": "Type event description"
+        },
+        "CloseSnackbar": "Close",
+        "ConfirmDeleteEventText": "Are you sure you want to delete this event ?",
+        "ConfirmDeleteEventCancelText": "Cancel",
+        "ConfirmDeleteEventButtonText": "Yes, delete",
+        "From": "From",
+        "To": "To",
+        "CreatedSuccessfully": "Event created successfully",
+        "UpdatedSuccessfully": "Event updated successfully",
+        "DeletedSuccessfully": "Event deleted successfully"
+    },
+    "EndDateAhead": "End date is ahead of start date",
+    "Overview": {
+        "Title": "This month's overview"
+    },
+    "Table": {
+        "ConfirmDeleteMessage": "Are you sure you want to delete this employee?",
+        "Cancel": "Cancel",
+        "Confirm": "Yes, delete",
+        "Close": "Close",
+        "CreateEmployee": "Create employee",
+        "EditEmployee": "Edit employee",
+        "RequiredFieldsText": "Fields marked with (*) are required.",
+        "Create": "Create",
+        "Update": "Update",
+        "Edit": "Edit",
+        "Delete": "Delete",
+        "UserInfo": "User information",
+        "Keys": {
+            "PhoneNumber": "Phone number",
+            "SendHours": "Send hours",
+            "FirstName": "First name",
+            "LastName": "Last name",
+            "PhotoProfile": "Profile photo",
+            "Birthday": "Date of birth",
+            "Verified": "Verified",
+            "StreetName": "Street Name",
+            "ZipCode": "Zip Code",
+            "HouseNumber": "House Number",
+            "Unverified": "Unverified",
+            "City": "City",
+            "Active": "Active",
+            "Inactive": "Inactive",
+            "Position": "Position",
+            "SearchLabel": "Search employees by email",
+            "Email": "Email",
+            "Password": "Password",
+            "Verification": "Verification",
+            "Activity": "Activity",
+            "LastLogin": "Last login",
+            "HiredAt": "Hired at",
+            "ContractDurationHint": "Select the Duration of the contract in months",
+            "ContractType": "Contract type",
+            "ContractDuration": "Contract duration",
+            "Role": "Role",
+            "Actions": "Actions"
+        },
+        "ImagePlaceholder": "Pick an avatar",
+        "NoData": "No data found.",
+        "Internship": "Internship",
+        "Freelance": "Freelance"
+    },
+    "Projects": {
+        "Title": "Projects",
+        "Name": "Project Name",
+        "Description": "Description",
+        "StartDate": "Start Date",
+        "EndDate": "End Date",
+        "Activity": "Active",
+        "Inactive": "Inactive",
+        "Budget": "Budget",
+        "Priority": "Priority",
+        "Client": "Client",
+        "TeamMembers": "Team Members",
+        "SearchLabel": "Search projects",
+        "CreateProject": "Create project",
+        "EditProject": "Edit project"
+    },
+    "badge": "Badge",
+    "close": "Close",
+    "dataIterator": {
+        "noResultsText": "No matching records found",
+        "loadingText": "Loading items..."
+    },
+    "dataTable": {
+        "itemsPerPageText": "Rows per page:",
+        "ariaLabel": {
+            "sortDescending": "Sorted descending.",
+            "sortAscending": "Sorted ascending.",
+            "sortNone": "Not sorted.",
+            "activateNone": "Activate to remove sorting.",
+            "activateDescending": "Activate to sort descending.",
+            "activateAscending": "Activate to sort ascending."
+        },
+        "sortBy": "Sort by"
+    },
+    "dataFooter": {
+        "itemsPerPageText": "Items per page:",
+        "itemsPerPageAll": "All",
+        "nextPage": "Next page",
+        "prevPage": "Previous page",
+        "firstPage": "First page",
+        "lastPage": "Last page",
+        "pageText": "{0}-{1} of {2}"
+    },
+    "dateRangeInput": {
+        "divider": "to"
+    },
+    "datePicker": {
+        "ok": "OK",
+        "cancel": "Cancel",
+        "range": {
+            "title": "Select dates",
+            "header": "Enter dates"
+        },
+        "title": "Select date",
+        "header": "Enter date",
+        "input": {
+            "placeholder": "Enter date"
+        }
+    },
+    "noDataText": "No data available",
+    "carousel": {
+        "prev": "Previous visual",
+        "next": "Next visual",
+        "ariaLabel": {
+            "delimiter": "Carousel slide {0} of {1}"
+        }
+    },
+    "calendar": {
+        "moreEvents": "{0} more"
+    },
+    "input": {
+        "clear": "Clear {0}",
+        "prependAction": "{0} prepended action",
+        "appendAction": "{0} appended action"
+    },
+    "fileInput": {
+        "counter": "{0} files",
+        "counterSize": "{0} files ({1} in total)"
+    },
+    "timePicker": {
+        "am": "AM",
+        "pm": "PM"
+    },
+    "pagination": {
+        "ariaLabel": {
+            "root": "Pagination Navigation",
+            "next": "Next page",
+            "previous": "Previous page",
+            "page": "Go to page {0}",
+            "currentPage": "Page {0}, Current page",
+            "first": "First page",
+            "last": "Last page"
+        }
+    },
+    "rating": {
+        "ariaLabel": {
+            "item": "Rating {0} of {1}"
+        }
+    },
+    "loading": "Loading...",
+    "infiniteScroll": {
+        "loadMore": "Load more",
+        "empty": "No more"
+    },
+    "Avatar": {
+        "AvatarTitle": "User Profile",
+        "Logout": "Logout"
+    },
+    "ChangePass": {
+        "title": "Change your password",
+        "current": "Current password",
+        "new": "New password",
+        "confirm": "New password confirmation",
+        "submit": "Submit"
+    }
+}

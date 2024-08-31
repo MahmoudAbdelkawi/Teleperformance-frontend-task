@@ -1,0 +1,425 @@
+{
+    "Actions": {
+        "Show": "عرض",
+        "Edit": "تعديل",
+        "Delete": "حذف"
+    },
+    "Tasks": {
+        "Tasks": "مهام",
+        "SearchPlaceholder": "البحث عن المهام",
+        "Modals": {
+            "CreateModalTitle": "إنشاء مهمة",
+            "EditModalTitle": "تعديل المهمة",
+            "DeleteModalTitle": "هل أنت متأكد أنك تريد حذف هذه المهمة؟",
+            "Fields": {
+                "Title": {
+                    "Label": "العنوان",
+                    "Placeholder": "أدخل عنوان المهمة"
+                },
+                "CrossStreet": {
+                    "Label": "شارع العبور",
+                    "Placeholder": "أدخل اسم الشارع العرضي"
+                },
+                "StreetName": {
+                    "Label": "اسم الشارع",
+                    "Placeholder": "أدخل اسم الشارع"
+                },
+                "ZipCode": {
+                    "Label": "الرمز البريدي",
+                    "Placeholder": "أدخل الرمز البريدي"
+                },
+                "HouseNumber": {
+                    "Label": "رقم المنزل",
+                    "Placeholder": "أدخل رقم المنزل"
+                },
+                "AssignedClient": "العميل المعين",
+                "City": {
+                    "Label": "المدينة",
+                    "Placeholder": "اختر المدينة"
+                },
+                "Team": {
+                    "Label": "الفريق",
+                    "Placeholder": "إضافة"
+                },
+                "Start": {
+                    "Label": "تاريخ البدء"
+                },
+                "End": {
+                    "Label": "تاريخ الانتهاء"
+                },
+                "Status": {
+                    "Label": "الحالة"
+                },
+                "Priority": {
+                    "Label": "الأولوية"
+                },
+                "Description": {
+                    "Label": "الوصف",
+                    "Placeholder": "أدخل وصف المهمة"
+                }
+            },
+            "Buttons": {
+                "Create": {
+                    "Submit": "إنشاء",
+                    "Cancel": "إلغاء"
+                },
+                "Edit": {
+                    "Submit": "حفظ",
+                    "Cancel": "إلغاء"
+                },
+                "Delete": {
+                    "Submit": "تأكيد",
+                    "Cancel": "إلغاء"
+                }
+            }
+        }
+    },
+    "SideBar": {
+        "Home": "الصفحة الرئيسية",
+        "Notifications": "الإشعارات",
+        "Documents": "المستندات",
+        "Team": "فريقي",
+        "Client": "العملاء",
+        "Tasks": "المهام",
+        "Meetings": "الاجتماعات",
+        "Settings": "الإعدادات",
+        "MainSettings": "الإعدادات الرئيسية",
+        "Logout": "تسجيل الخروج"
+    },
+    "Navbar": {
+        "Dashboard": "لوحة التحكم",
+        "Schedule": "الجدول",
+        "Inbox": "صندوق الوارد",
+        "Payments": "المدفوعات"
+    },
+    "Login": {
+        "Description": "يساعدك في إدارة عمل فريقك",
+        "Title": "مرحبًا بك في ",
+        "Instructions": "أدخل بيانات اعتمادك لتسجيل الدخول",
+        "Email": "البريد الإلكتروني",
+        "Password": "كلمة المرور",
+        "ForgotPass": "هل نسيت كلمة المرور؟",
+        "SignIn": "تسجيل الدخول"
+    },
+    "PwdReset": {
+        "Title": "إعادة تعيين كلمة المرور",
+        "Instructions": "هل نسيت كلمة المرور؟ أدخل عنوان بريدك الإلكتروني أدناه وسنرسل لك تعليمات لإعداد كلمة مرور جديدة.",
+        "Send": "إرسال بريد إلكتروني",
+        "NewPwdTitle": "الرجاء إدخال كلمة المرور الجديدة",
+        "NewPwdInstructions": "يرجى إدخال كلمة مرور جديدة مرتين للتحقق من صحة إدخالها بشكل صحيح",
+        "NewPwdConfirm": "تأكيد كلمة المرور",
+        "NewPwdSubmit": "إرسال",
+        "SuccessTitle": "تم إعادة تعيين كلمة المرور!",
+        "SuccessMessage": "تم تعيين كلمة المرور الجديدة. انقر على الزر لتسجيل الدخول."
+    },
+    "Home": {
+        "UserCard": {
+            "Title": "مرحبًا",
+            "Position": "المنصب",
+            "Department": "القسم",
+            "Subordinates": "المرؤوسين",
+            "Pending": "المهام المعلقة اليوم"
+        },
+        "News": {
+            "Title": "أخبار الشركة!",
+            "More": "المزيد"
+        },
+        "Chart": {
+            "Title": "مهام هذا الأسبوع"
+        },
+        "Request": {
+            "RequestedAt": "تم الطلب في",
+            "Title": "طلبات الإجازة",
+            "StartDate": "تاريخ البدء",
+            "EndDate": "تاريخ الانتهاء",
+            "NoRequests": "لا توجد طلبات متاحة.",
+            "Button": "تقديم طلب",
+            "Status": {
+                "Label": "الحالة",
+                "Approved": "موافقة",
+                "Rejected": "رفض"
+            },
+            "Content": "المحتوى",
+            "Loading": "جارٍ التحميل...",
+            "CreateRequest": "إنشاء طلب",
+            "CreateRequestModalDescriptionLineOne": "حدد اليوم في التقويم الذي ترغب في طلبه كيوم إجازة، ويرجى",
+            "CreateRequestModalDescriptionLineTwo": "اختيار خيار لإبلاغ مديرك",
+            "CreateRequestModalDescriptionLineThree": "بشأن موضوع الإذن.",
+            "CreateRequestModalDescriptionLineFour": "",
+            "SubjectOfTheRequest": "موضوع الطلب",
+            "RequestTextButton": "طلب",
+            "TextAreaPlaceholder": "اكتب موضوع طلب إجازة",
+            "Approved": "موافقة",
+            "Rejected": "رفض",
+            "Pending": "معلق",
+            "UpdateFreeDayRequestTitleModal": "تحديث طلب إجازة",
+            "UpdateFormStartDate": "تاريخ البدء",
+            "UpdateFormEndDate": "تاريخ الانتهاء",
+            "UpdateFormRequestStatus": "حالة الطلب",
+            "UpdateFormSubject": "الموضوع",
+            "UpdateFormDeleteRequestToolTip": "حذف طلب الإجازة",
+            "UpdateFormUpdateText": "تحديث",
+            "UpdateFormCancelText": "إلغاء",
+            "SnackbarCloseText": "إغلاق"
+        }
+    },
+    "Schedule": {
+        "SearchLabel": "البحث عن موظف",
+        "OptionLabel": "اختر خيارًا",
+        "Options": {
+            "Employee": "الموظف",
+            "Department": "القسم",
+            "Tasks": "مهامي"
+        },
+        "All": "الكل",
+        "Pending": "معلق",
+        "Done": "تم",
+        "Low": "منخفض",
+        "Medium": "متوسط",
+        "High": "عالي",
+        "Calendar": "عرض التقويم",
+        "List": "عرض القائمة"
+    },
+    "Documents": {
+        "Documents": "المستندات",
+        "Sort": "فرز الموظفين حسب القسم",
+        "NoSelect": "حدد موظفًا لعرض مستنداته أو إضافتها مباشرة",
+        "SearchLabel": "البحث عن مستخدم",
+        "SHOW": "عرض",
+        "Departments": {
+            "Development": "التطوير",
+            "Design": "التصميم",
+            "Sales": "المبيعات",
+            "Legal": "القانونية",
+            "HR": "الموارد البشرية"
+        },
+        "Drawer": {
+            "DrawerHeader": "قائمة الموظفين"
+        },
+        "UploadDocument": "تحميل مستند",
+        "Download": "تحميل",
+        "Close": "إغلاق",
+        "NotProjectsFounded": "لا توجد مشاريع متاحة",
+        "NotContainDocs": "هذا المشروع لا يحتوي علي اي مستندات",
+        "Filter": {
+            "All": "الكل",
+            "Images": "الصور",
+            "PDF": "PDF"
+        }
+    },
+    "SelectTenant": {
+        "select_text": "حدد المستأجر الذي ترغب في تسجيل الدخول به:"
+    },
+    "Event": {
+        "Validation": {
+            "LocationRequired": "الموقع مطلوب",
+            "TitleRequired": "العنوان مطلوب",
+            "ColorRequired": "اللون مطلوب"
+        },
+        "CreateEventModal": {
+            "HeaderTitle": "إنشاء حدث",
+            "Title": "العنوان",
+            "Location": "الموقع",
+            "Color": "اللون",
+            "StartDate": "تاريخ البدء",
+            "EndDate": "تاريخ الانتهاء",
+            "Description": "الوصف",
+            "TitlePlaceHolder": "عنوان الحدث",
+            "LocationPlaceHolder": "مكان الحدث",
+            "StartDatePlaceHolder": "حدد تاريخ البدء",
+            "EndDatePlaceHolder": "حدد تاريخ الانتهاء",
+            "ColorPlaceHolder": "حدد اللون",
+            "DescriptionPlaceHolder": "اكتب وصف الحدث"
+        },
+        "ViewEventModal": {
+            "StartDate": "تاريخ البدء",
+            "EndDate": "تاريخ الانتهاء",
+            "Description": "الوصف",
+            "Location": "الموقع",
+            "Time": "الوقت"
+        },
+        "UpdateEventModal": {
+            "HeaderTitle": "تحرير الحدث",
+            "Title": "عنوان الحدث",
+            "Location": "الموقع",
+            "Color": "اللون",
+            "StartDate": "تاريخ البدء",
+            "EndDate": "تاريخ الانتهاء",
+            "Description": "الوصف",
+            "Update": "تحديث",
+            "TitlePlaceHolder": "عنوان الحدث",
+            "LocationPlaceHolder": "مكان الحدث",
+            "StartDatePlaceHolder": "حدد تاريخ البدء",
+            "EndDatePlaceHolder": "حدد تاريخ الانتهاء",
+            "ColorPlaceHolder": "حدد اللون",
+            "DescriptionPlaceHolder": "اكتب وصف الحدث"
+        },
+        "CloseSnackbar": "إغلاق",
+        "ConfirmDeleteEventText": "هل أنت متأكد أنك تريد حذف هذا الحدث؟",
+        "ConfirmDeleteEventCancelText": "إلغاء",
+        "ConfirmDeleteEventButtonText": "نعم، احذف",
+        "From": "من",
+        "To": "إلى",
+        "CreatedSuccessfully": "تم إنشاء الحدث بنجاح",
+        "UpdatedSuccessfully": "تم تحديث الحدث بنجاح",
+        "DeletedSuccessfully": "تم حذف الحدث بنجاح"
+    },
+    "EndDateAhead": "تاريخ الانتهاء متقدم على تاريخ البدء",
+    "Overview": {
+        "Title": "نظرة عامة على هذا الشهر"
+    },
+    "Table": {
+        "ConfirmDeleteMessage": "هل أنت متأكد أنك تريد حذف هذا الموظف؟",
+        "Cancel": "إلغاء",
+        "Confirm": "نعم، احذف",
+        "Close": "إغلاق",
+        "CreateEmployee": "إنشاء موظف",
+        "EditEmployee": "تعديل موظف",
+        "RequiredFieldsText": "الحقول المشار إليها بعلامة (*) مطلوبة.",
+        "Create": "إنشاء",
+        "Update": "تحديث",
+        "Edit": "تعديل",
+        "Delete": "حذف",
+        "UserInfo": "معلومات المستخدم",
+        "Keys": {
+            "PhoneNumber": "رقم الهاتف",
+            "FirstName": "الاسم الأول",
+            "LastName": "الاسم الأخير",
+            "PhotoProfile": "صورة الملف الشخصي",
+            "Birthday": "تاريخ الميلاد",
+            "Verified": "تم التحقق",
+            "StreetName": "اسم الشارع",
+            "ZipCode": "الرمز البريدي",
+            "HouseNumber": "رقم المنزل",
+            "Unverified": "لم يتم التحقق",
+            "City": "المدينة",
+            "Active": "نشط",
+            "Inactive": "غير نشط",
+            "Position": "المنصب",
+            "SearchLabel": "البحث عن الموظفين بواسطة البريد الإلكتروني",
+            "Email": "البريد الإلكتروني",
+            "Password": "كلمة المرور",
+            "Verification": "التحقق",
+            "Activity": "النشاط",
+            "LastLogin": "آخر تسجيل دخول",
+            "HiredAt": "تاريخ التوظيف",
+            "ContractDurationHint": "حدد مدة العقد بالأشهر",
+            "ContractType": "نوع العقد",
+            "ContractDuration": "مدة العقد",
+            "Role": "الدور",
+            "Actions": "الإجراءات"
+        },
+        "ImagePlaceholder": "اختر صورة رمزية",
+        "NoData": "لا توجد بيانات.",
+        "Internship": "تدريب",
+        "Freelance": "عمل حر"
+    },
+    "Projects": {
+        "Title": "المشاريع",
+        "Name": "اسم المشروع",
+        "Description": "الوصف",
+        "StartDate": "تاريخ البدء",
+        "EndDate": "تاريخ الانتهاء",
+        "Activity": "نشط",
+        "Inactive": "غير نشط",
+        "Budget": "الميزانية",
+        "Priority": "الأولوية",
+        "Client": "العميل",
+        "TeamMembers": "أعضاء الفريق",
+        "SearchLabel": "البحث عن المشاريع",
+        "CreateProject": "إنشاء مشروع",
+        "EditProject": "تعديل المشروع"
+    },
+    "badge": "شارة",
+    "close": "إغلاق",
+    "dataIterator": {
+        "noResultsText": "لا توجد سجلات مطابقة",
+        "loadingText": "جاري تحميل العناصر..."
+    },
+    "dataTable": {
+        "itemsPerPageText": "عدد الصفوف في الصفحة:",
+        "ariaLabel": {
+            "sortDescending": "مرتب تنازليًا.",
+            "sortAscending": "مرتب تصاعديًا.",
+            "sortNone": "غير مرتب.",
+            "activateNone": "انقر لإزالة الترتيب.",
+            "activateDescending": "انقر للترتيب تنازليًا.",
+            "activateAscending": "انقر للترتيب تصاعديًا."
+        },
+        "sortBy": "ترتيب حسب"
+    },
+    "dataFooter": {
+        "itemsPerPageText": "عدد العناصر في الصفحة:",
+        "itemsPerPageAll": "الكل",
+        "nextPage": "الصفحة التالية",
+        "prevPage": "الصفحة السابقة",
+        "firstPage": "الصفحة الأولى",
+        "lastPage": "الصفحة الأخيرة",
+        "pageText": "{0}-{1} من {2}"
+    },
+    "dateRangeInput": {
+        "divider": "إلى"
+    },
+    "datePicker": {
+        "ok": "موافق",
+        "cancel": "إلغاء",
+        "range": {
+            "title": "تحديد تواريخ",
+            "header": "أدخل التواريخ"
+        },
+        "title": "تحديد تاريخ",
+        "header": "أدخل التاريخ",
+        "input": {
+            "placeholder": "أدخل التاريخ"
+        }
+    },
+    "noDataText": "لا توجد بيانات متاحة",
+    "carousel": {
+        "prev": "الشريحة السابقة",
+        "next": "الشريحة التالية",
+        "ariaLabel": {
+            "delimiter": "شريحة العرض {0} من {1}"
+        }
+    },
+    "calendar": {
+        "moreEvents": "المزيد من الأحداث {0}"
+    },
+    "input": {
+        "clear": "مسح {0}",
+        "prependAction": "إجراء يسبق {0}",
+        "appendAction": "إجراء يلحق {0}"
+    },
+    "fileInput": {
+        "counter": "{0} ملفات",
+        "counterSize": "{0} ملفات ({1} إجماليًا)"
+    },
+    "timePicker": {
+        "am": "ص",
+        "pm": "م"
+    },
+    "pagination": {
+        "ariaLabel": {
+            "root": "تصفح الترقيم",
+            "next": "الصفحة التالية",
+            "previous": "الصفحة السابقة",
+            "page": "انتقل إلى الصفحة {0}",
+            "currentPage": "الصفحة {0}، الصفحة الحالية",
+            "first": "الصفحة الأولى",
+            "last": "الصفحة الأخيرة"
+        }
+    },
+    "rating": {
+        "ariaLabel": {
+            "item": "التقييم {0} من {1}"
+        }
+    },
+    "loading": "جاري التحميل...",
+    "infiniteScroll": {
+        "loadMore": "تحميل المزيد",
+        "empty": "لا يوجد المزيد"
+    },
+    "Avatar": {
+        "AvatarTitle": "ملف المستخدم",
+        "Logout": "تسجيل الخروج"
+    }
+}
