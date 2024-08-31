@@ -27,7 +27,7 @@ const userNameRules = ref([
 
 async function validate(values: any, { setErrors }: any) {
     try {
-        await authStore.SIGNUP(email.value, password.value, userName.value, 'User');
+        await authStore.SIGNUP(email.value, password.value, userName.value);
         showSnackbar('Signup successful', 'elevated', 'success');
     } catch (err: any) {
         if (err.response) {

@@ -15,6 +15,7 @@ export interface Employee {
     isGraduated: boolean;
     uploadImage?: string;
     date?: string;
+    profileImage : string;
 }
 
 export interface PartialEmployee {

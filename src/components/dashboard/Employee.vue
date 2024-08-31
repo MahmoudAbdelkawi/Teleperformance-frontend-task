@@ -24,7 +24,7 @@ const getProfileImageUrl = (profileImage: string) => {
     return `http://www.teleperformance-task.somee.com/Employee/${profileImage}`;
 };
 
-const handleDelete = async (employeeId: number | undefined) => {
+const handleDelete = async (employeeId: string | undefined) => {
     if (employeeId === undefined) return;
     try {
         await deleteEmployeeById(employeeId);

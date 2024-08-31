@@ -11,8 +11,8 @@ const form = ref({
 });
 
 const props = defineProps<{
-    Employee: any;
-    edit: boolean;
+    Employee?: any;
+    edit?: boolean;
     closeDialog: () => void;
 }>();
 
@@ -38,7 +38,7 @@ onMounted(() => {
 });
 
 const submitForm = async () => {
-    const employee = {
+    const employee : any = {
         Name: form.value.name,
         Email: form.value.email,
         PhoneNumber: form.value.phoneNumber,

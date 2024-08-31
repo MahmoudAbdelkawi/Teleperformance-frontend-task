@@ -120,7 +120,7 @@ export const useEmployeeStore = defineStore('employee-store', () => {
         await fetchEmployees();
     });
 
-    async function deleteEmployee(id: number | undefined) {
+    async function deleteEmployee(id: string | undefined) {
         try {
             await deleteEmployeeById(id);
         } catch (error: any) {

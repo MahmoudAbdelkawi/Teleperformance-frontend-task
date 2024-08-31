@@ -75,7 +75,7 @@ const updateEmployeeById = async (id: number, data: Employee, file: any) => {
 
 
 
-const deleteEmployeeById = async (id: number | undefined) => {
+const deleteEmployeeById = async (id: string | undefined) => {
     try {
         await api().delete(apiRoutes.EMPLOYEE + `/${id}`);
     } catch (error: any) {

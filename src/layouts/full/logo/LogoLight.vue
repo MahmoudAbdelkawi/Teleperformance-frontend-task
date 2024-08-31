@@ -10,7 +10,7 @@ import planfylogo from '@/assets/images/logos/Logo.svg';
         </RouterLink>
 
         <RouterLink to="/" class="d-flex justify-center" style="color: #f60c87; text-decoration: none" v-else>
-            <img :src="true" alt="logo" width="150" />
+            <!-- <img :src="true" alt="logo" width="150" /> -->
         </RouterLink>
     </div>
 </template>
