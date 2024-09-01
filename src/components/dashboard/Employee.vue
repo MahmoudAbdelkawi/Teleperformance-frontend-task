@@ -106,11 +106,6 @@ const closeDialog=()=>{
                     <v-card-text>
                         <AddEmployee :closeDialog="closeDialog" :edit="openEditEmployee" :Employee="employeeEdit" /> <!-- Include the AddEmployee component -->
                     </v-card-text>
-
-                    <v-card-actions>
-                        <v-spacer></v-spacer>
-                        <v-btn text="Close Dialog" @click="openEditEmployee = false">Close</v-btn>
-                    </v-card-actions>
                 </v-card>
             </v-dialog>
 </template>

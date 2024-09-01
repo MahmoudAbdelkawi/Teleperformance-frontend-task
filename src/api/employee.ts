@@ -53,7 +53,7 @@ const addEmployee = async (employee: Employee, file: any) => {
     }
 };
 
-const updateEmployeeById = async (id: number, data: Employee, file: any) => {
+const updateEmployeeById = async (id: string, data: Employee, file: any) => {
     try {
         const formData = new FormData();
         // Append each field separately to the FormData

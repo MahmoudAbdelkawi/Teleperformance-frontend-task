@@ -105,7 +105,7 @@ export const useEmployeeStore = defineStore('employee-store', () => {
         }
     }
 
-    async function updateEmployee(id: number, data: Employee, file: any): Promise<any> {
+    async function updateEmployee(id: string, data: Employee, file: any): Promise<any> {
         try {
             return await updateEmployeeById(id, data, file);
         } catch (error: any) {
@@ -114,10 +114,12 @@ export const useEmployeeStore = defineStore('employee-store', () => {
     }
 
     watch(current_page, async () => {
-        await fetchEmployees();
+        // await fetchEmployees();
+        await fetchAll();
     });
     watch(page_size, async () => {
-        await fetchEmployees();
+        // await fetchEmployees();
+        await fetchAll();
     });
 
     async function deleteEmployee(id: string | undefined) {

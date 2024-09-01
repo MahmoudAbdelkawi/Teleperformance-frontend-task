@@ -10,6 +10,8 @@ const form = ref({
     isGraduated: false,
 });
 
+const emit = defineEmits(['editEmployee']);
+
 const props = defineProps<{
     Employee?: any;
     edit?: boolean;
@@ -47,11 +49,19 @@ const submitForm = async () => {
     if (uploadImage.value) {
       if(props.edit){
         useEmployeeStore().updateEmployee(props.Employee.id, employee, uploadImage.value);
+        useEmployeeStore().all_employees.forEach((emp: Employee) => {
+            if (emp.id === props.Employee.id) {
+                emp.name = employee.Name;
+                emp.email = employee.Email;
+                emp.phoneNumber = employee.PhoneNumber;
+                emp.isGraduated = employee.IsGraduated;
+            }
+        });
 
-      }else{
-        console.log(employee);
-        
+      }else{        
         await useEmployeeStore().createEmployee(employee, uploadImage.value);
+        // add the new employee to the store and re-render the component
+        useEmployeeStore().all_employees.push(employee);
       }
       await useEmployeeStore().fetchAll();
       props.closeDialog();  
@@ -70,6 +80,7 @@ const submitForm = async () => {
         <v-checkbox v-model="form.isGraduated" label="Graduated"></v-checkbox>
         <v-file-input label="Upload Image" accept="image/*" @change="handleFileChange"></v-file-input>
         <v-btn type="submit">Submit</v-btn>
+        <v-btn text="Close Dialog" @click="props.closeDialog()">Close</v-btn>
     </v-form>
 </template>
 

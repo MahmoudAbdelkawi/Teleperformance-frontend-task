@@ -65,10 +65,7 @@ const openAddEmployee = () => {
                         <AddEmployee :closeDialog="closeDialog" /> <!-- Include the AddEmployee component -->
                     </v-card-text>
 
-                    <v-card-actions>
-                        <v-spacer></v-spacer>
-                        <v-btn text="Close Dialog" @click="openEmployeeDialog = false">Close</v-btn>
-                    </v-card-actions>
+
                 </v-card>
             </v-dialog>
         </v-app>
